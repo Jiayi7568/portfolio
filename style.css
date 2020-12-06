@@ -1,19 +1,48 @@
-*
- margin: 0
- padding: 0
- box-sizing: border-box
 
-body
- width: 100%
- min-height: 100vh
- display: flex
- flex-direction: column
- background-color: #000
+p{
+  color:rgb(2, 3, 5);
+  font-size: 50px;
+  margin: 150px;
+}
+
+
+
+body {
+  background-image: url("pages/assets/images/skin1.jpg");
+  cursor: url("pages/assets/gifs/fish_frnt_clr-1.gif"), auto;
+  height: 100%; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
  
- video
+
+
+a:link { color: rgb(106, 159, 240); }          
+a:visited { color: rgb(238, 235, 67); }    
+a:hover { background: rgb(10, 114, 233); } 
+a:active { color: rgb(243, 239, 19); }         
+p:hover { background:rgb(136, 170, 243); }   
+
+
+
+
+
+
+
+ /body/
+ width: 100%
+ /min-height: 100vh
+ display: flex
+ /flex-direction: column
+
+ 
+ video/
   // flex: 1
   transform-origin: center
   transform: scaleX(-1)
   width: 100%
   height: 100vh
   background-color: #aaa8
+
+
